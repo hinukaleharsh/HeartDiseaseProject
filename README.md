@@ -3,6 +3,9 @@
 A beginner-friendly machine learning project that predicts the
 likelihood of heart disease from patient health data.
 
+## Live App
+https://heart-disease-predictor-harshhinukale.streamlit.app/
+
 ## Tech Stack
 Python, Pandas, NumPy, Matplotlib, Scikit-learn, XGBoost, Joblib, Streamlit
 
