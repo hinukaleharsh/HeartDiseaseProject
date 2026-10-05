@@ -1,0 +1,72 @@
+{
+  "model_type": "LogisticRegression",
+  "sklearn_version": "1.9.1",
+  "feature_columns": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalch",
+    "exang",
+    "oldpeak",
+    "slope"
+  ],
+  "categories": {
+    "sex": [
+      "Female",
+      "Male"
+    ],
+    "cp": [
+      "asymptomatic",
+      "atypical angina",
+      "non-anginal",
+      "typical angina"
+    ],
+    "fbs": [
+      "False",
+      "True",
+      "Unknown"
+    ],
+    "restecg": [
+      "lv hypertrophy",
+      "normal",
+      "st-t abnormality"
+    ],
+    "exang": [
+      "False",
+      "True",
+      "Unknown"
+    ],
+    "slope": [
+      "Unknown",
+      "downsloping",
+      "flat",
+      "upsloping"
+    ]
+  },
+  "numeric_ranges": {
+    "age": [
+      28.0,
+      77.0
+    ],
+    "trestbps": [
+      80.0,
+      200.0
+    ],
+    "chol": [
+      85.0,
+      603.0
+    ],
+    "thalch": [
+      63.0,
+      202.0
+    ],
+    "oldpeak": [
+      -2.6,
+      6.2
+    ]
+  }
+}
